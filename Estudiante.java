@@ -1,5 +1,8 @@
 package refactorizacion;
 /**
+ * Esta clase se utiliza para la creacion de estudiantes. Extiende de persona por lo cual
+ * solo necesita el atributo curso.
+ * 
  * @author Jaime Rabasco Ronda
  */
 /*Refactorizacion
@@ -34,14 +37,14 @@ public class Estudiante extends Persona{
 	}
 
 	/**
-	 * @return the curso
+	 * @return devuelve el curso
 	 */
 	protected Curso getCurso() {
 		return curso;
 	}
 
 	/**
-	 * @param curso the curso to set
+	 * @param curso pasado como parametro
 	 */
 	protected void setCurso(Curso curso) {
 		this.curso = curso;

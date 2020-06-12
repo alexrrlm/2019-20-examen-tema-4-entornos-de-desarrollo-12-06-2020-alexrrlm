@@ -1,5 +1,11 @@
 package refactorizacion;
 
+/**
+ * Esta clase se utiliza para crear personas.
+ * 
+ * @author Alejandro Rodríguez Romero
+ *
+ */
 
 
 public class Persona {
@@ -13,42 +19,42 @@ public class Persona {
   }
 
   /**
-   * @return the nombre
+   * @return devuelve el nombre
    */
   protected String getNombre() {
   	return nombre;
   }
 
   /**
-   * @param nombre the nombre to set
+   * @param nombre pasado como parametro
    */
   protected void setNombre(String nombre) {
   	this.nombre = nombre;
   }
 
   /**
-   * @return the apellidos
+   * @return devuelve el apellidos
    */
   protected String getApellidos() {
   	return apellidos;
   }
 
   /**
-   * @param apellidos the apellidos to set
+   * @param apellidos pasado como parametro
    */
   protected void setApellidos(String apellidos) {
   	this.apellidos = apellidos;
   }
 
   /**
-   * @return the nif
+   * @return devuelve el nif
    */
   protected String getNif() {
   	return nif;
   }
 
   /**
-   * @param nif the nif to set
+   * @param nif pasado como parametro
    */
   protected void setNif(String nif) {
   	this.nif = nif;
