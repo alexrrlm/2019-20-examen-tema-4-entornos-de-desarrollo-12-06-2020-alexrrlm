@@ -12,7 +12,7 @@ public class Gato {
 				
 	}
 
-	void maullar() {
+	void maulla() {
 		System.out.println("Miau");
 	}
 
